@@ -1,0 +1,17 @@
+<p>marcador-de-puntos works!</p>
+<link rel="stylesheet" href="marcador-de-puntos.component.css">
+<body>
+    <div class="containerMarcador">
+        <h1 id="marcador">0</h1>
+        <input type="number" id="puntos" placeholder="Ingresa los puntos">
+        <button onclick="actualizarMarcador()">Actualizar Marcador</button>
+    </div>
+
+    <script>
+        function actualizarMarcador() {
+            var puntos = document.getElementById("puntos").value;
+            document.getElementById("marcador").innerText = puntos;
+        }
+    </script>
+</body>
+</html>
