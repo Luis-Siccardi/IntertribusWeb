@@ -1,7 +1,9 @@
 footer {
+
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    margin: 0%;
+    padding: 0%;
     background-color: #591C21;
     color: white;
 }
