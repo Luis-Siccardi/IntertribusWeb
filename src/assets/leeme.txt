@@ -1,1 +1,6 @@
-Aca Van las Imagenes, deberian
+Aca Van las Imagenes, deberian de hacerse carpetas con archivos para cada componente, ejemplo:
+
+Img Carpeta Raiz
+
+Img/Navbar: Aca Van a ir todas Las Imagenes de Navbar
+Img/TuCarpeta: Aca Van a ir todas Las Imagenes de Navbar
