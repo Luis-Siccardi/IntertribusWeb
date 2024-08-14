@@ -13,3 +13,22 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+.boton {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #54071a; /* Letras color #54071a */
+    border: 2px solid #54071a; /* Borde del mismo color que el texto */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Para que el padding y border funcionen correctamente */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para el hover */
+}
+
+.boton:hover {
+    background-color: #54071a; /* Fondo al pasar el mouse */
+    color: #ffffff; /* Letras al pasar el mouse */
+}
