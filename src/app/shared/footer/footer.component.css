@@ -1,10 +1,13 @@
+body {
+    margin: 0;
+}
 footer {
-
     display: flex;
     justify-content: space-between;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     background-color: #591C21;
+
     color: white;
 }
 
@@ -15,7 +18,7 @@ footer {
 }
 
 .boton {
-    background-color: #ffffff; /* Fondo blanco */
+    background-color: #F2F2F2; /* Fondo blanco */
     color: #54071a; /* Letras color #54071a */
     border: 2px solid #54071a; /* Borde del mismo color que el texto */
     padding: 10px 20px; /* Espaciado interno */
@@ -26,9 +29,10 @@ footer {
     cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
     font-size: 20px;
     transition: background-color 0.3s, color 0.3s; /* Transición suave para el hover */
+    font-weight: 700;
 }
 
 .boton:hover {
     background-color: #54071a; /* Fondo al pasar el mouse */
-    color: #ffffff; /* Letras al pasar el mouse */
+    color: #F2F2F2; /* Letras al pasar el mouse */
 }
