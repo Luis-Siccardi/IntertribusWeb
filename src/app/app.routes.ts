@@ -4,6 +4,7 @@ import { MarcadorDePuntosComponent } from './pages/marcador-de-puntos/marcador-d
 import { HeaderComponent } from './shared/header/header.component';
 import { InformativaComponent } from './pages/informativa/informativa.component';
 import { SeccionesComponent } from './pages/secciones/secciones.component';
+import { ContadoresDePuntosComponent } from './pages/contadores-de-puntos/contadores-de-puntos.component';
 
 
 export const routes: Routes = [
@@ -11,5 +12,6 @@ export const routes: Routes = [
     {path: 'marcadorDePuntos', component:MarcadorDePuntosComponent},
     {path: 'informativa', component:InformativaComponent},
     {path: 'secciones', component:SeccionesComponent},
+    {path: 'contadoresDePuntos', component:ContadoresDePuntosComponent}
     //{path: 'header', component:HeaderComponent}
 ];
