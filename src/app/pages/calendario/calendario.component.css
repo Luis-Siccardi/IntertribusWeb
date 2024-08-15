@@ -1,0 +1,38 @@
+.Bordo {
+    background-color: #591c21;
+}
+
+.LetraBlanca {
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 20px;
+}
+
+.LetraGris {
+    color: #bdbdbd;
+}
+
+.table {
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid rgb(180, 180, 180);
+  }
+  th, td{
+    padding: 10px;
+  }
+  th{
+    text-align: center;
+  }
+  td{
+    text-align: right;
+  }
+  
+tr  {
+    height: 100px;
+}
+
+.Semana {
+    width: 20px;
+}

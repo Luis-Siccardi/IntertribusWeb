@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: #591C21;
+
+    color: white;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.boton {
+    background-color: #F2F2F2; /* Fondo blanco */
+    color: #54071a; /* Letras color #54071a */
+    border: 2px solid #54071a; /* Borde del mismo color que el texto */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Para que el padding y border funcionen correctamente */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para el hover */
+    font-weight: 700;
+}
+
+.boton:hover {
+    background-color: #54071a; /* Fondo al pasar el mouse */
+    color: #F2F2F2; /* Letras al pasar el mouse */
+}

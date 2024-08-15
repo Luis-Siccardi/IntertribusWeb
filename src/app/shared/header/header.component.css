@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #591C21;
+    color: #FADEAB;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FADEAB;
+    text-decoration: none;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+nav .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #591C21;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+}
+
+nav .dropdown li {
+    margin: 0;
+}
+
+nav .dropdown li a {
+    color: #FADEAB;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+nav .dropdown li a:hover {
+    background-color: #4a1216;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.search-form input[type="search"] {
+    padding: 10px;
+    border: 1px solid #FADEAB;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+    color: #591C21;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #FADEAB;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #591C21;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+    background-color: #e2c87a;
+}
+
+.auth-buttons {
+    display: flex;
+    margin-left: auto;
+}
+
+.auth-buttons .button {
+    background-color: #FADEAB;
+    color: #591C21;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.auth-buttons .button:hover {
+    background-color: #e2c87a;
+    color: #3f0e12;
+}
