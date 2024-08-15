@@ -15,7 +15,7 @@ import { ContadoresDePuntosComponent } from './pages/contadores-de-puntos/contad
   imports: [
     RouterOutlet,
     ExplicacionRutasComponent,//borrar despues
-    //HeaderComponent,
+    HeaderComponent,
     FooterComponent, 
     MarcadorDePuntosComponent,
     InformativaComponent,
