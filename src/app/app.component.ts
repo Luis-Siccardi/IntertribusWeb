@@ -7,6 +7,7 @@ import { ExplicacionRutasComponent } from './explicacion-rutas/explicacion-rutas
 import { InformativaComponent } from './pages/informativa/informativa.component';
 import { CalendarioComponent } from './pages/calendario/calendario.component';
 import { SeccionesComponent } from './pages/secciones/secciones.component';
+import { ContadoresDePuntosComponent } from './pages/contadores-de-puntos/contadores-de-puntos.component';
 
 @Component({
   selector: 'app-root',
@@ -15,10 +16,11 @@ import { SeccionesComponent } from './pages/secciones/secciones.component';
     RouterOutlet,
     ExplicacionRutasComponent,//borrar despues
     //HeaderComponent,
-    //FooterComponent , 
+    FooterComponent, 
     MarcadorDePuntosComponent,
     InformativaComponent,
     SeccionesComponent,
+    ContadoresDePuntosComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
