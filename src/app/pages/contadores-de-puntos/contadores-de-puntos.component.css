@@ -1,0 +1,17 @@
+.PuntosTotales{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+.TribuNegra{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    background-color: blue;
+}
+
+.TribuRoja{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: brown;
+}

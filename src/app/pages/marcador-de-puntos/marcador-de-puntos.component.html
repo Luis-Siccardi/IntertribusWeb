@@ -1,8 +1,48 @@
-<body>
-    <p>hola</p>
-    <div class="containerMarcador">
-        <h1 id="marcador">0</h1>
-        <input type="number" id="puntos" placeholder="Ingresa los puntos">
-        <button onclick="actualizarMarcador()">Actualizar Marcador</button>
+<link rel="stylesheet" href="marcador-de-puntos.component.css">
+
+
+<p>hola</p>
+<div class="containerMarcador">
+    <h1 id="marcador">0</h1>
+    <input type="number" id="puntos" placeholder="Ingresa los puntos">
+    <button onclick="actualizarMarcador()">Actualizar Marcador</button>
+</div>
+
+<div class="container">
+    <div class="box">
+        <h2>Tribu roja - Puntaje general</h2>
+        <p>0</p>
     </div>
-</body>
+    <div class="box1">
+        <h2>Tribu negra - Puntaje general</h2>
+        <p>0</p>
+    </div>
+    <div class="box2">
+        <table>
+            <tr>
+                <th>Actividades</th>
+                <th>Puntaje Tribu Roja</th>
+                <th>Puntaje Tribu Negra</th>
+            </tr>
+            <tr>
+                <td>Juegos de Mesa</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Deportes</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Presentación</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </table>
+        </div>
+    <div class="containerMarcador">
+        <input type="text" placeholder="Ingresar puntaje">
+        <button>Actualizar Puntaje</button>
+    </div>
+</div>
