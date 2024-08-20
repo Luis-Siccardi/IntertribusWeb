@@ -1,0 +1,39 @@
+/* Estilos generales para el carrusel */
+.custom-carousel {
+    background-color: black; /* Fondo negro para el carrusel */
+    color: white; /* Texto blanco para el contenido del carrusel */
+}
+
+/* Estilos para los indicadores del carrusel */
+.custom-indicators button {
+    background-color: red; /* Fondo rojo para los indicadores */
+    border: none;
+}
+
+.custom-indicators .active {
+    background-color: white; /* Fondo blanco para el indicador activo */
+}
+
+/* Estilos para los controles del carrusel */
+.custom-prev,
+.custom-next {
+    color: white; /* Color blanco para el icono de los controles */
+    background-color: red; /* Fondo rojo para los botones de control */
+    border: none;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+    background-color: darkred; /* Fondo rojo oscuro para hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Fondo negro para los íconos */
+    border-radius: 50%;
+}
+
+/* Estilo para las imágenes con borde blanco */
+.carousel-item img {
+    border: 2px solid white; /* Borde blanco para las imágenes */
+}
