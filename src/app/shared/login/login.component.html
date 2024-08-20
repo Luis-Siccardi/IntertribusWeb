@@ -8,6 +8,37 @@
     <link rel="stylesheet" href="login.component.css">
 </head>
 <body id="login">
+    <header>
+        <link rel="stylesheet" href="/src/app/shared/header/header.component.css">
+        <div class="container">
+            <h1>INTERTRIBUS</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Lorem</a></li>
+                    <li>
+                        <a href="#">Lorem</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Lorem 1</a></li>
+                            <li><a href="#">Lorem 2</a></li>
+                            <li><a href="#">Lorem 3</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="#">Lorem</a></li>
+                </ul>       
+            </nav>
+            <div class="auth-buttons">
+                <form class="search-form" action="/search" method="get">
+                    <input type="search" name="q" placeholder="Buscar..." aria-label="Buscar">
+                    <button type="submit">Buscar</button>
+                </form>
+                <a href="/src/app/shared/login/login.component.html"class="button">Login</a>
+                <a href="#" class="button">Sign Up</a>
+            </div>
+        </div>
+    </header>
+    
+    
     <div class="login-container">
         
         <form>
@@ -26,6 +57,62 @@
             <button type="submit"><strong><h2>Enviar</h2></strong></button>
         </form>
     </div>
+
+    <footer>
+        <div class="footer-section">
+            <h4>Escuela experimental PRoA La Falda</h4>
+            <p>Progreso 399, La Falda</p>
+            <p>Córdoba, Argentina</p>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <a href="https://www.facebook.com/proalafalda?mibextid=ZbWKwL">
+                <img src="img/facebook.png" alt="logo facebook" height="40" width="40">
+            </a>
+    
+            <a href="https://www.instagram.com/proa_lafalda?igsh=MXFieHdkZm9rNzBsbQ==">
+                <img src= "img/ig logo.png" alt="logo instagram" height="40" width="40">
+            </a>
+        </div>
+            <div class="footer-section">
+                <h4>Escuela experimental PRoA La Falda</h4>
+                <p>Progreso 399, La Falda</p>
+                <p>Còrdoba, Argentina</p>
+                <br>
+                <hr>
+                <a href="https://www.facebook.com/proalafalda?mibextid=ZbWKwL">
+                    <img src="img/facebook.png" alt="logo facebook" height="30" width="30">
+                </a>
+                <img src="img/twitter logo.png" alt="logo twitter" height="30" width="30">
+                <a href="https://www.instagram.com/proa_lafalda?igsh=MXFieHdkZm9rNzBsbQ==">
+                    <img src= "img/ig logo.png" alt="logo instagram" height="30" width="30">
+                </a>
+            </div>
+    
+            <div class="footer-section">
+                <br>
+                <p>✆ +54 9 3548 58-2040</p>
+                <p>✉ PRoALaFalda&#64;gmail.com</p>
+                <br>
+                <br>
+                <hr>
+                <h6>Creado por 5to año PRoA La Falda-©2024</h6>
+            </div>
+            
+            <div class="footer-section">
+                <br>
+                <br>
+                <button class="boton">CONTACTOS Y SERVICIOS</button>
+                <br>
+                <br>
+                <br>
+                <br>
+                <hr>
+                <p><img src="img/logo proa.png" alt="logo proa" height="50" width="50">Programa Avanzado de Educación <br> Secundaria en TIC</p>
+            </div>
+    </footer>
+    
     
 </body>
 </html>
