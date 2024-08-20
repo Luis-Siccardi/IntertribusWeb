@@ -5,6 +5,7 @@ import { InformativaComponent } from './pages/informativa/informativa.component'
 import { SeccionesComponent } from './pages/secciones/secciones.component';
 import { ContadoresDePuntosComponent } from './pages/contadores-de-puntos/contadores-de-puntos.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { RecordatorioComponent } from './pages/recordatorio/recordatorio.component';
 
 
 export const routes: Routes = [
@@ -14,5 +15,7 @@ export const routes: Routes = [
     {path: 'secciones', component:SeccionesComponent},
     {path: 'contadoresDePuntos', component:ContadoresDePuntosComponent},
     {path: 'footer', component:FooterComponent}
+    {path: 'recordatorio', component:RecordatorioComponent}
+    
     //{path: 'header', component:HeaderComponent}
 ];
