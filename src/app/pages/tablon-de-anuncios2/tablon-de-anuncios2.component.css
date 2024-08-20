@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-container {
+    flex: 1;
+    background-image: url('ruta_de_tu_imagen.jpg');
+    background-size: cover;
+    background-position: center;
+}
