@@ -1,5 +1,7 @@
 
-
+.LetraColor{
+    color: #F2F2F2;
+}
 body{
     background-color: #FADEAB;
     font-family: 'Poppins';
@@ -22,18 +24,21 @@ body{
 
 
 .login-container {
-    margin-left: 30%;
-    padding: 20px;
+    margin-left: 35%;
+    margin-top: 5%;
+    padding: 2%;
     border-radius: 5%;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     width: 30%;
     background-color: #F2F2F2;
+        align-items: center;
+    justify-content: center;
 }
 
 
 header {
     color: #591C21;
-    padding: 10px;
+    padding: 10%;
     text-align: center;
     border-radius: 20px 20px 0 0;
 }
@@ -45,12 +50,12 @@ header h1 {
 
 
 .input-group {
-    margin-bottom: 15px;
+    margin-bottom: 3%;
 }
 
 .input-group label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 3%;
     border-radius: 15%;
     text-align: center;
     font-weight: bold;
@@ -74,25 +79,24 @@ header h1 {
 
 
 button {
-    width: 70%;
-    padding: 20px;
+    width: 35%; /* Ajustar el ancho del botón para hacerlo más pequeño pero alargado */
+    height: auto;
+    padding: 1%; /* Ajustar el relleno para que el botón tenga un buen tamaño y forma */
     background-color: #328458;
-    border-radius: 40px;
+    border-radius: 2rem;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
     margin: auto;
     display: flex;
     color: #F2F2F2;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 400;
     src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
     unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-
-
-
 }
+
+
 
 @font-face {
     font-family: 'Poppins';
