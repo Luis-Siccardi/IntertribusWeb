@@ -8,6 +8,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { RecordatorioComponent } from './pages/recordatorio/recordatorio.component';
 
 
+
 export const routes: Routes = [
     {path: '', component:ExplicacionRutasComponent},
     {path: 'marcadorDePuntos', component:MarcadorDePuntosComponent},
