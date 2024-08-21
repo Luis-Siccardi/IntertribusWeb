@@ -1,39 +1,51 @@
 body {
-    background-color: #F2F2F2;
+    background-color: #dfdfdf;
     color: #211A1E;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 .header {
-    background-color: #D92525;
-    color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+    background-color: #3d0000;
+    width: 440px;
+    height: 100%;
+    color: #bcbcbc;
     padding: 15px;
     text-align: center;
+    
 }
 .container {
-    padding: 20px;
+    background-color: rgb(179, 179, 179);
+    position: relative;
+    left: 490px;
+    top: 10px;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    margin-block-end:  10px;
+    
 }
-.notification {
-    background-color: #FADEAB;
-    border-left: 10px solid #591C21;
-    margin-bottom: 20px;
-    padding: 15px;
-    border-radius: 5px;
-}
-.notification h2 {
-    color: #591C21;
-    margin-top: 0;
-}
-.notification p {
-    color: #211A1E;
+
+.Formulario {
+    position: relative;
+    top: 520px;
+    left: 27px;
+    background-color: #F2F2F2;
+    width: 90%;
+    height: 30px;
+    border-radius: 14px;
+
+
 }
 .footer {
     background-color: #211A1E;
     color: #F2F2F2;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
