@@ -5,9 +5,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { MarcadorDePuntosComponent } from './pages/marcador-de-puntos/marcador-de-puntos.component';
 import { ExplicacionRutasComponent } from './explicacion-rutas/explicacion-rutas.component';
 import { InformativaComponent } from './pages/informativa/informativa.component';
-import { CalendarioComponent } from './pages/calendario/calendario.component';
 import { SeccionesComponent } from './pages/secciones/secciones.component';
-import { ContadoresDePuntosComponent } from './pages/contadores-de-puntos/contadores-de-puntos.component';
+
 
 @Component({
   selector: 'app-root',
@@ -19,8 +18,8 @@ import { ContadoresDePuntosComponent } from './pages/contadores-de-puntos/contad
     FooterComponent, 
     MarcadorDePuntosComponent,
     InformativaComponent,
-    SeccionesComponent,
-    ContadoresDePuntosComponent,
+    SeccionesComponent,  
+
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
