@@ -134,7 +134,7 @@ nav .dropdown li a:hover {
     color: #F2F2F2;
 }
 body{
-    background-color: #FADEAB;
+    background-color: #f3eac0;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -156,10 +156,10 @@ body{
 
 .login-container {
     margin-left: 35%;
-    margin-top: 5%;
-    padding: 3%;
+    margin-top: 3%;
+    padding: 1%;
     border-radius: 10%;
-    width: 30%;
+    width: 25%;
     background-color: #F2F2F2;
     align-items: center;
     justify-content: center;
@@ -229,6 +229,21 @@ button {
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+.password-container input {
+    width: calc(); 
+}
+.show-password {
+    position: absolute;
+    right: 5%;
+    top: 68%;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
 
 /* Aca empieza el Footer*/

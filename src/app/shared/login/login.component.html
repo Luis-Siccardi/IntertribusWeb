@@ -25,7 +25,7 @@
                         </ul>
                     </li>
                     <li><a href="#">Lorem</a></li>
-                </ul>       
+                </ul>       <!--  -->
             </nav>
             <div class="auth-buttons">
                 <form class="search-form" action="/search" method="get">
@@ -40,19 +40,15 @@
     
     
     <div class="login-container">
-        
         <form>
             <div class="input-group">
                 <label for="username"><h3><strong>Usuario/Gmail</strong></h3></label>
                 <input class="LetraColor" type="text" id="username" placeholder="">
             </div>
-            <div class="input-group">
+            <div class="input-group password-container">
                 <label for="password"><h3><strong>Contraseña</strong></h3></label>
                 <input class="LetraColor" type="password" id="password" placeholder="">
-            </div>
-            <div class="input-group">
-                <label for="password"><h3><strong>Confirmar Contraseña</strong></h3></label>
-                <input class="LetraColor" type="password" id="password" placeholder="">
+                <span class="show-password" onclick="togglePassword()">👁️</span>
             </div>
             <button type="submit"><strong><h2>Enviar</h2></strong></button>
         </form>
@@ -112,6 +108,14 @@
                 <p><img src="img/logo proa.png" alt="logo proa" height="50" width="50">Programa Avanzado de Educación <br> Secundaria en TIC</p>
             </div>
     </footer>
+
+    <script>
+        function togglePassword() {
+            const passwordField = document.getElementById('password');
+            const type = passwordField.type === 'password' ? 'text' : 'password';
+            passwordField.type = type;
+        }
+    </script>
     
     
 </body>
