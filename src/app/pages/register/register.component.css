@@ -1,10 +1,5 @@
-/*Aca comienza el Login*/
-
-.LetraColor{
-    color: #F2F2F2;
-}
-
-.login {
+/* Estilo general del contenedor de registro */
+.register {
     background-color: #F2F2F2;
     font-family: Arial, sans-serif;
     color: #211A1E;
@@ -14,87 +9,89 @@
     height: 100vh;
 }
 
-
-.login-container {
+/* Contenedor del formulario */
+.register-container {
     margin-left: 35%;
     margin-top: 3%;
-    padding: 1%;
-    border-radius: 10%;
+    padding: 20px;
     width: 25%;
+    color: rgb(139, 145, 145);
     background-color: #F2F2F2;
     align-items: center;
     justify-content: center;
 }
 
+/* Grupo de entradas */
 .input-group {
-    margin-bottom: 3%;
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
 
+/* Estilo de las etiquetas */
 .input-group label {
     display: block;
-    margin-bottom: 3%;
-    border-radius: 15%;
+    margin-bottom: 5px;
     text-align: center;
     font-weight: bold;
     color: #211A1E;
 }
 
-
+/* Estilo de los inputs */
 .input-group input {
     width: 100%;
-    padding: 30px;
+    padding: 15px;
     background-color: #591C21;
-    border-radius: 40px;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
     box-sizing: border-box;
-    
 }
 
-
-.input-group input::placeholder {
-    color: #F2F2F2;
+/* Contenedor de la contraseña con el icono de mostrar/ocultar */
+.password-container {
+    position: relative;
 }
 
-
+/* Ajuste de la posición del icono de mostrar/ocultar contraseña */
+.show-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+/* Estilo del botón */
 button {
-    width: 35%;
-    height: auto;
-    padding: 0,5%;
+    width: 100%;
+    padding: 10px;
     background-color: #328458;
-    border-radius: 2rem;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: #F2F2F2;
     font-family: "Bebas Neue", sans-serif;
-    font-style: normal;
+    font-size: 18px;
     border: none;
-    src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
+/* Efecto hover para el botón */
+button:hover {
+    background-color: #286a46;
+}
 
+/* Ajuste del tamaño del h2 dentro del botón */
+button h2 {
+    margin: 0;
+    font-size: 24px;
+}
 
+/* Fuente adicional */
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
     unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-.password-container {
-    position: relative;
-    width: 100%;
-}
-.password-container input {
-    width: calc(); 
-}
-.show-password {
-    position: absolute;
-    right: 5%;
-    top: 68%;
-    transform: translateY(-50%);
-    cursor: pointer;
 }

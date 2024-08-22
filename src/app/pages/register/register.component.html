@@ -1,8 +1,11 @@
 <div class="register-container">
-    <form>
+    <form style="border-radius: 50px;">
         <div class="input-group">
-            <label for="username"><h3><strong>Usuario/Gmail</strong></h3></label>
-            <input class="LetraColor" type="text" id="username" placeholder="">
+            <label for="username"><h3><strong>Usuario</strong></h3></label>
+            <input class="LetraColor" type="text" id="username" placeholder="Tu usuario...">
+
+            <label for="email"><h3><strong>Email</strong></h3></label>
+            <input class="LetraColor" type="email" id="email" placeholder="example@escuelasproa.edu.ar">
         </div>
         <div class="input-group password-container">
             <label for="password"><h3><strong>Contraseña</strong></h3></label>
@@ -11,9 +14,18 @@
         </div>
         <div class="input-group password-container">
             <label for="password-check"><h3><strong>Contraseña Check</strong></h3></label>
-            <input class="LetraColor" type="password" id="passwordcheck" placeholder="">
+            <input class="LetraColor" type="password" id="passwordcheck" placeholder="Escribe...">
             <span class="show-password" onclick="togglePassword()">👁️</span>
         </div>
-        <button type="submit"><strong><h2>Enviar</h2></strong></button>
+        <button type="submit"><h2>REGISTRARSE</h2></button>
     </form>
 </div>
+
+<script>
+    function togglePassword() {
+    const passwordFields = document.querySelectorAll('#password, #passwordcheck');
+    passwordFields.forEach(field => {
+        field.type = field.type === 'password' ? 'text' : 'password';
+    });
+    }
+</script>
