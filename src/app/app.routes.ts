@@ -6,8 +6,8 @@ import { SeccionesComponent } from './pages/secciones/secciones.component';
 import { ContadoresDePuntosComponent } from './pages/contadores-de-puntos/contadores-de-puntos.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { RecordatorioComponent } from './pages/recordatorio/recordatorio.component';
-import { LoginComponent } from './shared/login/login.component';
-import { RegisterComponent } from './shared/register/register.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 
 
