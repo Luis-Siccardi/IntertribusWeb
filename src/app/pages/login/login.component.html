@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <div class="login-container">
     <form>
         <div class="input-group">
@@ -17,6 +18,32 @@
         <button type="submit"><strong><h2>Enviar</h2></strong></button>
     </form>
 </div>
+=======
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.component.css">
+</head>
+<body id="login">    
+    <div class="login-container">
+        <form>
+            <div class="input-group">
+                <label for="username"><h3><strong>Usuario/Gmail</strong></h3></label>
+                <input class="LetraColor" type="text" id="username" placeholder="">
+            </div>
+            <div class="input-group password-container">
+                <label for="password"><h3><strong>Contraseña</strong></h3></label>
+                <input class="LetraColor" type="password" id="password" placeholder="">
+                <span class="show-password" onclick="togglePassword()"><img src="src\app\shared\footer\img\OjoContrasena.png" alt=""></span>
+            </div>
+            <button type="submit"><strong><h2>Enviar</h2></strong></button>
+        </form>
+    </div>
+>>>>>>> Stashed changes
 
     <script>
         function togglePassword() {
@@ -24,4 +51,12 @@
             const type = passwordField.type === 'password' ? 'text' : 'password';
             passwordField.type = type;
         }
+<<<<<<< Updated upstream
     </script>
+=======
+    </script>
+    
+    
+</body>
+</html>
+>>>>>>> Stashed changes
