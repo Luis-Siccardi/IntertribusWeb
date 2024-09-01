@@ -1,31 +1,32 @@
 <div class="register-container">
-    <form style="border-radius: 50px;">
+    <form>
         <div class="input-group">
-            <label for="username"><h3><strong>Usuario</strong></h3></label>
+            <label for="username"> Usuario </label>
             <input class="LetraColor" type="text" id="username" placeholder="Tu usuario...">
 
-            <label for="email"><h3><strong>Email</strong></h3></label>
+            <label for="email"> Email </label>
             <input class="LetraColor" type="email" id="email" placeholder="example@escuelasproa.edu.ar">
         </div>
+
         <div class="input-group password-container">
-            <label for="password"><h3><strong>Contraseña</strong></h3></label>
+            <label for="password"> Contraseña </label>
             <input class="LetraColor" type="password" id="password" placeholder="Escribe...">
-            <span class="show-password" onclick="togglePassword()">👁️</span>
+            <span class="show-password" onclick="togglePassword('password')">👁️</span>
         </div>
         <div class="input-group password-container">
-            <label for="password-check"><h3><strong>Contraseña Check</strong></h3></label>
+            <label for="password-check"> Confirmar Contraseña </label>
             <input class="LetraColor" type="password" id="passwordcheck" placeholder="Escribe...">
-            <span class="show-password" onclick="togglePassword()">👁️</span>
+            <span class="show-password" onclick="togglePassword('passwordcheck')">👁️</span>
         </div>
-        <button type="submit"><h2>REGISTRARSE</h2></button>
     </form>
 </div>
 
+
 <script>
-    function togglePassword() {
-    const passwordFields = document.querySelectorAll('#password, #passwordcheck');
-    passwordFields.forEach(field => {
-        field.type = field.type === 'password' ? 'text' : 'password';
-    });
+    function togglePassword(id) {
+        const passwordField = document.getElementById(id);
+        if (passwordField) {
+            passwordField.type = passwordField.type === 'password' ? 'text' : 'password';
+        }
     }
 </script>
