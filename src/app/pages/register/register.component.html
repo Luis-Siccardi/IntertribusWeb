@@ -1,30 +1,38 @@
 <div class="register-container">
-    <form>
+    <form action="GET">
         <div class="input-group">
-            <label for="username"> Usuario </label>
-            <input class="LetraColor" type="text" id="username" placeholder="Tu usuario...">
-
-            <label for="email"> Email </label>
-            <input class="LetraColor" type="email" id="email" placeholder="example@escuelasproa.edu.ar">
+            <label for="username">
+                Usuario 
+                <input type="text" id="username" autocomplete="name" placeholder="Tu usuario...">
+            </label>
+            <label for="email">
+                Email 
+                <input class="LetraColor" type="email" id="email" autocomplete="email" placeholder="example@escuelasproa.edu.ar">
+            </label>
         </div>
 
         <div class="input-group password-container">
-            <label for="password"> Contraseña </label>
-            <input class="LetraColor" type="password" id="password" placeholder="Escribe...">
+            <label for="password">
+                Contraseña
+                <input class="LetraColor" type="password" id="password" placeholder="Escribe...">
+            </label>
             <span class="show-password" onclick="togglePassword('password')">👁️</span>
+
+            <label for="passwordCheck">
+                Confirmar Contraseña
+                <input class="LetraColor" type="password" id="passwordCheck" placeholder="Escribe...">
+            </label>
+            <span class="show-password" onclick="togglePassword('passwordCheck')">👁️</span>
         </div>
-        <div class="input-group password-container">
-            <label for="password-check"> Confirmar Contraseña </label>
-            <input class="LetraColor" type="password" id="passwordcheck" placeholder="Escribe...">
-            <span class="show-password" onclick="togglePassword('passwordcheck')">👁️</span>
-        </div>
+
+        <button type="submit"> REGISTRARSE </button>
     </form>
 </div>
 
 
 <script>
     function togglePassword(id) {
-        const passwordField = document.getElementById(id);
+        const passwordField = document.getElementById(togglePassword);
         if (passwordField) {
             passwordField.type = passwordField.type === 'password' ? 'text' : 'password';
         }

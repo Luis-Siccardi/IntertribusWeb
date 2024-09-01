@@ -1,45 +1,51 @@
 /* Contenedor del formulario */
 .register-container {
-    margin-left: 35%;
+    margin-left: auto; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
     margin-top: 3%;
     padding: 20px;
-    width: 25%;
+    width: 30%; /* Ajuste del ancho */
     color: rgb(139, 145, 145);
     background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column; /* Alineación de los hijos en columna */
     align-items: center;
     justify-content: center;
-    border: 1px solid #ddd; /* Agregar borde al contenedor si es necesario */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    border: 2px solid #ccc; /* Bordes del contenedor */
+    border-radius: 30px; /* Bordes redondeados del contenedor */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
 }
 
-
-/* Grupo de entradas */
-.input-group {
-    border-radius: 15px;
+label   {
+    font-size: 25px;
+}
+input   {
+    border-radius: 30px;
+    background-color: #591C21;
+    width: 100%;
+    padding: 15px;
+    color: #FFF;
+    border: 2px solid #ccc; /* Bordes visibles de los inputs */
+    box-sizing: border-box;
+    outline: none; /* Eliminar contorno al hacer clic */
+    transition: border-color 0.3s ease; /* Efecto de transición en el borde */
     margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc; /* Agregar bordes a los grupos */
 }
 
 /* Estilo de las etiquetas */
 .input-group label {
     display: block;
     margin-bottom: 5px;
-    text-align: center;
+    font-size: 20px;
+    text-align: center; /* Centrar el texto del label */
     font-weight: bold;
     color: #211A1E;
+    border-radius: 30px
 }
 
-/* Estilo de los inputs */
-.input-group input {
-    width: 100%;
-    padding: 15px;
-    background-color: #591C21;
-    color: #FFF;
-    border: 1px solid #ccc; /* Asegurarse que los bordes sean visibles */
-    border-radius: 10px;
-    box-sizing: border-box;
-    outline: none; /* Eliminar contorno al hacer clic */
+/* Cambiar el borde al hacer focus */
+.input-group input:focus {
+    border-color: #328458; /* Cambiar color del borde al hacer focus */
 }
 
 /* Contenedor de la contraseña con el icono de mostrar/ocultar */
@@ -49,46 +55,10 @@
 
 /* Ajuste de la posición del icono de mostrar/ocultar contraseña */
 .show-password {
-    position: absolute;
+    position: relative;
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    color: #FFF; /* Asegurar que el icono sea visible */
-}
-
-/* Estilo del botón */
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #328458;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #F2F2F2;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-/* Efecto hover para el botón */
-button:hover {
-    background-color: #286a46;
-}
-
-/* Ajuste del tamaño del h2 dentro del botón */
-button h2 {
-    margin: 0;
-    font-size: 24px;
-}
-
-/* Fuente adicional */
-@font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    color: #FFF; /* Asegura que el icono sea visible */
 }
